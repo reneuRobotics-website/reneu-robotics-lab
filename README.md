@@ -157,6 +157,82 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
     + [Core Contributors](#core-contributors)
   * [License](#license)
 
+ # 🧑‍🔬 UT ReNeu Lab Website
+
+This is the **UT ReNeu Lab Version** of our website, built with [Jekyll](https://jekyllrb.com/) and deployed via GitHub Pages.  
+
+---
+
+## ⚡ Quick Start
+
+### 1. Install WSL (Windows Subsystem for Linux), recommend version 22.04
+On Windows:
+```bash
+wsl --install
+```
+### 2. Clone the Repository
+```
+git clone git@github.com:reneuRobotics-website/reneu-robotics-lab.git
+cd reneu-robotics-lab
+```
+### 3. Install Ruby & Bundler
+Make sure the correct Ruby version is installed in WSL:
+```
+sudo apt update
+sudo apt install ruby ruby-dev ruby-bundler build-essential
+```
+Check versions:
+```
+ruby -v
+bundler -v
+```
+### 4. Install Dependencies
+bundle install
+### 5. Run Locally
+Start a live development server:
+```
+bundle exec jekyll serve --livereload
+```
+By default Jekyll serves at:
+```
+http://0.0.0.0:4000
+```
+Visit in your browser:
+```
+http://localhost:4000
+```
+
+👉If you cannot visit the site, you need to turn on a cmd window:
+```
+hostname -I
+```
+to find the domain
+Then use:
+```
+http://<your-wsl-ip>:4000
+```
+🔄 **Workflow**
+Commit & Push Changes
+```
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+Trigger Rebuild Without Changes
+```
+git commit --allow-empty -m "Trigger rebuild"
+git push origin main
+```
+🌐 **Deployment**
+
+Once pushed, the site builds automatically on GitHub Pages:
+```
+🔗 https://reneurobotics-website.github.io/reneu-robotics-lab/
+```
+If connected to UT Austin DNS:
+```
+austin.reneu.robotics.utexas.edu
+```
 ## Getting started
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
