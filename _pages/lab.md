@@ -24,15 +24,16 @@ horizontal: false
   <tr>
     <td>
       <div style="text-align:center">
-           <a href="{{ site.baseurl }}/lab/ashish/">
-           <img src="../assets/img/ashish.jpg" style="width:135px;height:150px;margin: 10px 15px 2px 15px;" alt="Ashish Deshpande" border="5"/><br />Ashish Deshpande</a> 
+           <a href="{{ '/lab/ashish/' | relative_url }}">
+           <img src="{{ '/assets/img/ashish.jpg' | relative_url }}" style="width:135px;height:150px;margin: 10px 15px 2px 15px;" alt="Ashish Deshpande" border="5"/><br />Ashish Deshpande</a> 
            <br/>Director and PI<br/><br><br><br>
       </div>
     </td>
   </tr>
     <tr>
       <td>
-        <div style="text-align:center"><a href="{{ site.baseurl }}/lab/stefano-dalla-gasperina/">
+        <div style="text-align:center">
+          <a href="{{ site.baseurl }}/lab/stefano-dalla-gasperina/">
           <img src="../assets/img/stefano.profile_0.jpg" style="width:135px;height:150px;margin: 10px 15px 2px 15px;" alt="Stefano Dalla Gasperina" border="5"/><br /> Stefano Dalla Gasperina</a> <br/>Post-Doctoral Researcher<br><br>
          </div></td>
       <td>
