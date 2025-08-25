@@ -13,7 +13,7 @@ horizontal: true
 <div class="container">
 
   <!-- Robot 1 -->
-  <div class="row mb-4 p-3 border rounded" style="background:#f7f7f7;">
+  <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
       <img src="/assets/img/robots/ACT_Alcalde.jpg" alt="ACT Hand" class="img-fluid rounded">
     </div>
@@ -41,7 +41,7 @@ horizontal: true
   </div>
 
   <!-- Robot 3 -->
-  <div class="row mb-4 p-3 border rounded" style="background:#f7f7f7;">
+  <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
       <img src="/assets/img/robots/Maestro_1_0.jpg" alt="Maestro Hand Exoskeleton" class="img-fluid rounded">
     </div>

@@ -20,7 +20,7 @@ Welcome to our lab website! We are developing innovative robotic devices to impr
 
 The Lab is part of the Mechanical Engineering Department at The University of Texas at Austin. We are also associated with the [Texas Robotics](https://robotics.utexas.edu/) consortium located in the Anna Hiss Gymnasium ([AHG](https://utdirect.utexas.edu/apps/campus/buildings/nlogon/maps/UTM/AHG/)).
 
-From 2025 Fall, this website is the new offical website of ReNeu Robotics Lab, previous works are presented on [Old ReNue Robotics Lab Website](https://reneu.robotics.utexas.edu/)
+From 2025 Fall, this website is the new offical website of ReNeu Robotics Lab, previous works are presented on [Old ReNeu Robotics Lab Website](https://reneu.robotics.utexas.edu/)
 2.304 & 2.306, Anna Hiss Gymnasium, Austin, Texas 78712
 
 <!-- RobIn Lab is directed by [Roberto Martín-Martín](https://robertomartinmartin.com/), and is part of the University of Texas at Austin, Department of Computer Science, UTAI Lab and Texas Robotics.
