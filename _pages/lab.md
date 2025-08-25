@@ -49,7 +49,8 @@ horizontal: false
       <td>
         <div style="text-align:center"><a href="{{ site.baseurl }}/lab/haiyun-zhang/">
           <img src="../assets/img/Haiyun.jpg" style="width:135px;height:150px;margin: 10px 15px 2px 15px;" alt="Haiyun Zhang" border="5"/><br /> Haiyun Zhang</a> <br/>Ph.D. Student<br><font size="-1">Coadvised with Luis Sentis</font>
-        </div></td>
+        </div>
+      </td>
     </tr>
     <tr>
       <td>
