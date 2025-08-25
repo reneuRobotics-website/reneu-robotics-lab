@@ -15,7 +15,7 @@ horizontal: true
   <!-- Robot 1 -->
   <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
-      <img src="/assets/img/robots/ACT_Alcalde.jpg" alt="ACT Hand" class="img-fluid rounded">
+      <img src="../assets/img/robots/ACT_Alcalde.jpg" alt="ACT Hand" class="img-fluid rounded">
     </div>
     <div class="col-md-9">
       <h4><a href="https://reneu.robotics.utexas.edu/anatomically-correct-testbed-act-hand">Anatomically Correct Testbed (ACT) Hand</a></h4>
@@ -29,7 +29,7 @@ horizontal: true
   <!-- Robot 2 -->
   <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
-      <img src="/assets/img/robots/HARMONY_1.jpg" alt="Harmony Exoskeleton" class="img-fluid rounded">
+      <img src="../assets/img/robots/HARMONY_1.jpg" alt="Harmony Exoskeleton" class="img-fluid rounded">
     </div>
     <div class="col-md-9">
       <h4><a href="https://reneu.robotics.utexas.edu/harmony-exoskeleton">Harmony Exoskeleton</a></h4>
@@ -43,7 +43,7 @@ horizontal: true
   <!-- Robot 3 -->
   <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
-      <img src="/assets/img/robots/Maestro_1_0.jpg" alt="Maestro Hand Exoskeleton" class="img-fluid rounded">
+      <img src="../assets/img/robots/Maestro_1_0.jpg" alt="Maestro Hand Exoskeleton" class="img-fluid rounded">
     </div>
     <div class="col-md-9">
       <h4><a href="https://reneu.robotics.utexas.edu/maestro-hand-exoskeleton-0">Maestro Hand Exoskeleton</a></h4>
@@ -57,7 +57,7 @@ horizontal: true
   <!-- Robot 4 -->
   <div class="row mb-4 p-3 border rounded">
     <div class="col-md-3">
-      <img src="/assets/img/robots/NuFIngers.jpg" alt="NuFingers" class="img-fluid rounded">
+      <img src="../assets/img/robots/NuFIngers.jpg" alt="NuFingers" class="img-fluid rounded">
     </div>
     <div class="col-md-9">
       <h4><a href="https://reneu.robotics.utexas.edu/nufingers">NuFingers</a></h4>
