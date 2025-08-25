@@ -187,7 +187,9 @@ ruby -v
 bundler -v
 ```
 ### 4. Install Dependencies
+```
 bundle install
+```
 ### 5. Run Locally
 Start a live development server:
 ```
@@ -211,6 +213,8 @@ Then use:
 ```
 http://<your-wsl-ip>:4000
 ```
+
+## Update the remote website
 🔄 **Workflow**
 Commit & Push Changes
 ```
@@ -233,6 +237,43 @@ If connected to UT Austin DNS:
 ```
 austin.reneu.robotics.utexas.edu
 ```
+## ✏️ How to Update Content (Example: Personal Profile)
+### Edit an Existing Profile
+1. Go to the lab member file:
+For example
+```
+_lab_members/haiyun-zhang.md
+```
+2. Edit the content (bio, title, links, etc.) and save.
+
+### Change Lab Member Page
+Open:
+```
+_pages/lab.md
+```
+To add a new member, insert a new table cell <td> block, for example:
+```
+<td>
+  <div style="text-align:center">
+    <a href="{{ site.baseurl }}/lab/haiyun-zhang/">
+      <img src="../assets/img/Haiyun.jpg" 
+           style="width:135px;height:150px;margin: 10px 15px 2px 15px;" 
+           alt="Haiyun Zhang" border="5"/>
+      <br /> Haiyun Zhang
+    </a> 
+    <br/>Ph.D. Student
+    <br/><font size="-1">Coadvised with Luis Sentis</font>
+  </div>
+</td>
+```
+
+The <img> path ```../assets/img/Haiyun.jpg``` must match an image in ```assets/img/```.
+
+The <a> link ```/lab/haiyun-zhang/``` connects directly to ```_lab_members/haiyun-zhang.md```.
+
+Save and push changes.
+
+# Original ReadMe
 ## Getting started
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
