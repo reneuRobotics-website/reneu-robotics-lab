@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lab
+title: Lab Members
 permalink: /lab/
 description: Members and collaborators
 nav: true
-nav_order: 2
+nav_order: 3
 # display_categories: [work, fun]
 horizontal: false
 ---
@@ -67,15 +67,5 @@ horizontal: false
           Undergradate students 
       </td>
     </tr>
-    <tr>
-    </tr>
-    <tr>
-      <td style="font-size:1.5em">
-          Robots
-      </td>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
   <!-- </tbody>
 </table> -->
